@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20051" started-at="2016-07-06T13:19:01Z" finished-at="2016-07-06T13:19:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20051" started-at="2016-07-06T13:19:01Z" finished-at="2016-07-06T13:19:21Z">
+      <class name="NewTest">
+        <test-method status="FAIL" signature="before_test()[pri:0, instance:NewTest@68be2bc2]" name="before_test" is-config="true" duration-ms="0" started-at="2016-07-06T18:49:01Z" finished-at="2016-07-06T18:49:01Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Server returned HTTP response code: 400 for URL: http://api.microsofttranslator.com/v2/Http.svc/Translate?text=my%3Bname+is%3Bajit%3Bsingh&from=en;&to=hi;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Server returned HTTP response code: 400 for URL: http://api.microsofttranslator.com/v2/Http.svc/Translate?text=my%3Bname+is%3Bajit%3Bsingh&from=en;&to=hi;
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at BingTranslatorUsingApi.apiCode(BingTranslatorUsingApi.java:113)
+	at NewTest.before_test(NewTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+      </class> <!-- NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
