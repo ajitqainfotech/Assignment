@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestAutomation.check">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="verifyCloning"/>
+          <include name="verifyLogin"/>
+          <include name="verifyNewRepositoryButtonIsClickable"/>
+          <include name="verifyUpdateREADMEFile"/>
+          <include name="verifyClonedNumberOfFiles"/>
+          <include name="verifyLoginPage"/>
+          <include name="verifyPullData"/>
+          <include name="verifyCreateRepository"/>
+        </methods>
+      </class> <!-- TestAutomation.check -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

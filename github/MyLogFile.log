@@ -1,0 +1,19 @@
+Jul 05, 2016 5:17:42 PM GitAutomate.GitAutomate1.AppTest beforeTestMethod
+INFO: starting page
+Jul 05, 2016 5:17:45 PM GitAutomate.GitAutomate1.AppTest verifyLoginPage
+INFO: Creating object of start page Methods
+Jul 05, 2016 5:17:46 PM GitAutomate.GitAutomate1.AppTest verifyLoginPage
+INFO: Click on  sigh in Button
+Jul 05, 2016 5:17:46 PM GitAutomate.GitAutomate1.AppTest verifyLoginPage
+WARNING: Both string should be case sensitive !!
+Jul 05, 2016 5:17:46 PM GitAutomate.GitAutomate1.AppTest verifyLogin
+INFO: Creating object of Login page Methods
+
+Jul 05, 2016 5:17:46 PM GitAutomate.GitAutomate1.AppTest verifyLogin
+INFO: Click on login button
+Jul 05, 2016 5:17:51 PM GitAutomate.GitAutomate1.AppTest verifyNewRepositoryButtonIsClickable
+INFO: click on new Repository Button
+Jul 05, 2016 5:18:02 PM GitAutomate.GitAutomate1.AppTest verifyCloning
+INFO: this matches your number of files to updated files
+Jul 05, 2016 5:18:22 PM GitAutomate.GitAutomate1.AppTest verifyUpdateREADMEFile
+WARNING: there given string should be case sensitive

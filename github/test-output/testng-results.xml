@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41226" started-at="2016-07-05T11:47:41Z" finished-at="2016-07-05T11:48:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41226" started-at="2016-07-05T11:47:41Z" finished-at="2016-07-05T11:48:22Z">
+      <class name="GitAutomate.GitAutomate1.AppTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="beforeTestMethod" is-config="true" duration-ms="4499" started-at="2016-07-05T17:17:41Z" finished-at="2016-07-05T17:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyLoginPage" duration-ms="975" started-at="2016-07-05T17:17:45Z" finished-at="2016-07-05T17:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyLogin" duration-ms="4679" started-at="2016-07-05T17:17:46Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyLoginPage" finished-at="2016-07-05T17:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyNewRepositoryButtonIsClickable()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyNewRepositoryButtonIsClickable" duration-ms="1390" started-at="2016-07-05T17:17:51Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyLogin" finished-at="2016-07-05T17:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewRepositoryButtonIsClickable -->
+        <test-method status="PASS" signature="verifyCreateRepository()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyCreateRepository" duration-ms="5985" started-at="2016-07-05T17:17:53Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyNewRepositoryButtonIsClickable" finished-at="2016-07-05T17:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateRepository -->
+        <test-method status="PASS" signature="verifyCloning()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyCloning" duration-ms="3011" started-at="2016-07-05T17:17:59Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyCreateRepository" finished-at="2016-07-05T17:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloning -->
+        <test-method status="PASS" signature="verifyPullData()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyPullData" duration-ms="8129" started-at="2016-07-05T17:18:02Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyCloning" finished-at="2016-07-05T17:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPullData -->
+        <test-method status="PASS" signature="verifyClonedNumberOfFiles()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyClonedNumberOfFiles" duration-ms="1790" started-at="2016-07-05T17:18:10Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyPullData" finished-at="2016-07-05T17:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClonedNumberOfFiles -->
+        <test-method status="PASS" signature="verifyUpdateREADMEFile()[pri:0, instance:GitAutomate.GitAutomate1.AppTest@7931a5af]" name="verifyUpdateREADMEFile" duration-ms="10734" started-at="2016-07-05T17:18:11Z" depends-on-methods="GitAutomate.GitAutomate1.AppTest.verifyClonedNumberOfFiles" finished-at="2016-07-05T17:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateREADMEFile -->
+      </class> <!-- GitAutomate.GitAutomate1.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
